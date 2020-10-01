@@ -9,6 +9,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number");
         int number = sc.nextInt();
+	if(number<0){
+        	System.out.println("Enter a positive number to compute fibonacci");
+        	number = sc.nextInt();
+	}
         int a = 0;
         int b = 1;
         System.out.print(a+" "+b+" ");
