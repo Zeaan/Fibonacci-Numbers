@@ -11,6 +11,8 @@ public class Main {
         int number = sc.nextInt();
         int a = 0;
         int b = 1;
+	/*Using system.out.print() only, and not System.out.println(),
+	because we want to display result on the same line*/
         System.out.print(a+" "+b+" ");
 
         for(int i=2; i<number; i++){
